@@ -1,0 +1,15 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="32"
+    android:viewportHeight="36"
+    android:tint="#FFFFFF">
+    <!-- Голова (радиус 2.5, опущена на 2) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M13.5,13.5 A2.5,2.5 0 1,1 18.5,13.5 A2.5,2.5 0 1,1 13.5,13.5" />
+    <!-- Тело (радиус 3, опущено на 2) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M11,22 A3,3 0 0,1 21,22 Z" />
+</vector>

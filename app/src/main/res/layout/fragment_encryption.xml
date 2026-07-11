@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:paddingHorizontal="12dp"
+    android:paddingVertical="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="#000000">
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_arrow_back"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Back" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Encryption Key Management"
+            android:textColor="@color/text_primary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingStart="8dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="8dp">
+
+        <RadioGroup
+            android:id="@+id/radioGroupKeySize"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="0.75"
+            android:orientation="horizontal"
+            android:background="@drawable/bg_search_rounded"
+            android:gravity="center_vertical">
+
+            <RadioButton
+                android:id="@+id/radio2048"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="2048 bit"
+                android:textColor="@color/selector_key_text"
+                android:checked="true"
+                android:gravity="center"
+                android:button="@null"
+                android:background="@drawable/bg_key_size_selector" />
+
+            <RadioButton
+                android:id="@+id/radio4096"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="4096 bit"
+                android:textColor="@color/selector_key_text"
+                android:gravity="center"
+                android:button="@null"
+                android:background="@drawable/bg_key_size_selector" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnGenerate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate Keys"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_search_rounded"
+        android:textColor="@color/text_primary" />
+
+    <EditText
+        android:id="@+id/etPublicKey"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_key_field"
+        android:textColor="@color/text_primary"
+        android:textSize="14sp"
+        android:padding="8dp"
+        android:gravity="top"
+        android:scrollbars="vertical"
+        android:editable="false"
+        android:focusable="true"
+        android:longClickable="true"
+        android:inputType="none"
+        android:cursorVisible="false" />
+
+    <EditText
+        android:id="@+id/etPrivateKey"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_key_field"
+        android:textColor="@color/text_primary"
+        android:textSize="14sp"
+        android:padding="8dp"
+        android:gravity="top"
+        android:scrollbars="vertical"
+        android:editable="false"
+        android:focusable="true"
+        android:longClickable="true"
+        android:inputType="none"
+        android:cursorVisible="false" />
+
+</LinearLayout>

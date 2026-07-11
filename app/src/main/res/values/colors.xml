@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Основные -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#AAAAAA</color>
+    <color name="text_hint">#888888</color>
+
+    <!-- Фоны -->
+    <color name="background">#000000</color>
+    <color name="surface_dark">#1F1F1F</color>
+    <color name="surface_field">#2C2C2C</color>
+
+    <!-- Акценты -->
+    <color name="accent_purple">#B587F7</color>
+    <color name="badge_red">#FF4444</color>
+
+    <!-- Старые (для совместимости) -->
+    <color name="primary">#9E9E9E</color>
+    <color name="primary_dark">#757575</color>
+    <color name="primary_light">#E0E0E0</color>
+    <color name="accent">#9E9E9E</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_surface">#FFFFFF</color>
+    <color name="error">#CF6679</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="purple_500">#B587F7</color>
+    <color name="ic_launcher_background">#000000</color>
+</resources>
