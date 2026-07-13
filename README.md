@@ -23,7 +23,8 @@ Because all encryption happens on the device and keys never leave it, even your 
 To start encrypted SMS communication, you need to follow the following steps:
 1. After installation, the application will automatically generate a pair of keys
 2. Open the chat with the person, click the button with the optional actions in the upper right corner and click on the Send my Public Key button. After that, your current public key is inserted into the text field. Your interlocutor should do the same.
-3. When you get the brothald of the interlocutor and copy the message by clapping it. After that, click on the contact name at the top of the chat and insert its public key by making double tap on the theatrical
+3. When you get the brothald of the interlocutor and copy the message by clapping it. After that, click on the contact name at the top of the chat and insert its public key by making double tap on the theatrical.
+
 Ready, you can communicate without doubting the confidentiality of your correspondence!
 ## Bug reports
 This app may still contain bugs. If you encounter any issues, please report them to my [e-mail](mailto:zips-jaws-avert@duck.com).
